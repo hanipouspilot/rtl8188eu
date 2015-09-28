@@ -48,6 +48,7 @@ static void rtw_dev_remove(struct usb_interface *pusb_intf);
 static struct usb_device_id rtw_usb_id_tbl[] = {
 	/*=== Realtek demoboard ===*/
 	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0x8179)}, /* 8188EUS */
+	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0x818b)}, /* 8188EUS */
 	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0x0179)}, /* 8188ETV */
 	/*=== Customer ID ===*/
 	/****** 8188EUS ********/
